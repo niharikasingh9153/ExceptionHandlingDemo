@@ -13,6 +13,10 @@ public class Employee implements Comparable {
         this.salary = salary;
     }
 
+    public Employee() {
+
+    }
+
     public int getEmpId() {
         return empId;
     }
